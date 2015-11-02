@@ -69,7 +69,7 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\gs-gradle-0.1.0.jar;%APP_HOME%\lib\joda-time-2.2.jar
+set CLASSPATH=%APP_HOME%\lib\gs-gradle-0.1.0.jar;%APP_HOME%\lib\joda-time-2.2.jar;%APP_HOME%\lib\spring-context-4.2.2.RELEASE.jar;%APP_HOME%\lib\spring-aop-4.2.2.RELEASE.jar;%APP_HOME%\lib\spring-beans-4.2.2.RELEASE.jar;%APP_HOME%\lib\spring-core-4.2.2.RELEASE.jar;%APP_HOME%\lib\spring-expression-4.2.2.RELEASE.jar;%APP_HOME%\lib\aopalliance-1.0.jar;%APP_HOME%\lib\commons-logging-1.2.jar
 
 @rem Execute wayofbeing
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %WAYOFBEING_OPTS%  -classpath "%CLASSPATH%" hello.HelloWorld %CMD_LINE_ARGS%
